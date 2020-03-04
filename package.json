@@ -1,0 +1,23 @@
+{
+  "name": "@p-chan/prettier-config",
+  "version": "1.0.0",
+  "description": "@p-chan's Prettier config",
+  "keywords": [
+    "prettier",
+    "formatter"
+  ],
+  "homepage": "https://github.com/p-chan/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/p-chan/prettier-config/issues"
+  },
+  "license": "MIT",
+  "author": "P-Chan",
+  "main": "index.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/p-chan/prettier-config.git"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
