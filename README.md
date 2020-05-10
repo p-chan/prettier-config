@@ -1,41 +1,40 @@
 # prettier-config
 
-> [@p-chan](https://github.com/p-chan)'s [Prettier](https://prettier.io/) config
+> Shared Prettier config for [@p-chan](https://github.com/p-chan)
 
-## Usage
-
-Install
+## Install
 
 ```bash
 $ npm install @p-chan/prettier-config --save-dev
 ```
 
-Edit `package.json`
+## Usage
 
-```jsonc
-{
-  // ...
-  "prettier": "@p-chan/prettier-config"
-}
-```
-
-or edit `.prettierrc.js`
+Edit `.prettierrc.js`.
 
 ```js
 module.exports = {
-  ...require("@p-chan/prettier-config")
-};
+  ...require('@p-chan/prettier-config'),
+}
 ```
 
 ## Override
 
 ```js
 module.exports = {
-  ...require("@p-chan/prettier-config"),
+  ...require('@p-chan/prettier-config'),
   singleQuote: false,
-  semi: true
-};
+  semi: true,
+}
 ```
+
+## Author
+
+[@p-chan](https://github.com/p-chan)
+
+## License
+
+MIT
 
 ---
 
